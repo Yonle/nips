@@ -24,7 +24,6 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 
 - [NIP-01: Basic protocol flow description](01.md)
 - [NIP-02: Follow List](02.md)
-- [NIP-03: OpenTimestamps Attestations for Events](03.md)
 - [NIP-04: Encrypted Direct Message](04.md) --- **unrecommended**: deprecated in favor of [NIP-17](17.md)
 - [NIP-05: Mapping Nostr keys to DNS-based internet identifiers](05.md)
 - [NIP-06: Basic key derivation from mnemonic seed phrase](06.md)
@@ -33,7 +32,6 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-09: Event Deletion Request](09.md)
 - [NIP-10: Text Notes and Threads](10.md)
 - [NIP-11: Relay Information Document](11.md)
-- [NIP-13: Proof of Work](13.md)
 - [NIP-14: Subject tag in text events](14.md)
 - [NIP-15: Nostr Marketplace (for resilient marketplaces)](15.md)
 - [NIP-17: Private Direct Messages](17.md)
@@ -70,7 +68,6 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-52: Calendar Events](52.md)
 - [NIP-53: Live Activities](53.md)
 - [NIP-54: Wiki](54.md)
-- [NIP-55: Android Signer Application](55.md)
 - [NIP-56: Reporting](56.md)
 - [NIP-57: Lightning Zaps](57.md)
 - [NIP-58: Badges](58.md)
@@ -135,7 +132,6 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `1018`        | Poll Response                   | [88](88.md)                            |
 | `1021`        | Bid                             | [15](15.md)                            |
 | `1022`        | Bid confirmation                | [15](15.md)                            |
-| `1040`        | OpenTimestamps                  | [03](03.md)                            |
 | `1059`        | Gift Wrap                       | [59](59.md)                            |
 | `1063`        | File Metadata                   | [94](94.md)                            |
 | `1068`        | Poll                            | [88](88.md)                            |
@@ -322,7 +318,6 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `lnurl`           | `bech32` encoded `lnurl`             | --                              | [57](57.md)                                        |
 | `location`        | location string                      | --                              | [52](52.md), [99](99.md)                           |
 | `name`            | name                                 | --                              | [34](34.md), [58](58.md), [72](72.md)              |
-| `nonce`           | random                               | difficulty                      | [13](13.md)                                        |
 | `preimage`        | hash of `bolt11` invoice             | --                              | [57](57.md)                                        |
 | `price`           | price                                | currency, frequency             | [99](99.md)                                        |
 | `proxy`           | external ID                          | protocol                        | [48](48.md)                                        |
